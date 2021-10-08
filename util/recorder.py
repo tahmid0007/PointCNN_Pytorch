@@ -100,7 +100,7 @@ class ModelRecorder:
                         best_model_dict=self.best_model_dict,
                         best_performance_dict=self.best_performance_dict,
                         addition_info=addition_info,
-                        best_optimizer_dict=self.best_optimizer_dict), self.save_file)
+                        best_optimizer_dict=self.best_optimizer_dict), 'model.pth')
 
         if self.save_record:
             # TODO
