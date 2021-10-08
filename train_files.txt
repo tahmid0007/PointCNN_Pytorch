@@ -1,0 +1,8 @@
+data/s3dis_sample/office_1/zero_0.h5
+data/s3dis_sample/office_1/half_0.h5
+data/s3dis_sample/office_2/zero_0.h5
+data/s3dis_sample/office_2/half_0.h5
+data/s3dis_sample/office_3/zero_0.h5
+data/s3dis_sample/office_3/half_0.h5
+data/s3dis_sample/office_4/zero_0.h5
+data/s3dis_sample/office_4/half_0.h5
