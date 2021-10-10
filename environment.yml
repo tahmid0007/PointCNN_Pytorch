@@ -1,0 +1,35 @@
+name: pcnn-env
+channels: 
+  - conda-forge
+  - pytorch
+  - pyg
+  - defaults
+dependencies:
+  - pytorch=1.9.1
+  - torchvision=0.10.1
+  - cudatoolkit=10.2.89
+  - python=3.8.11
+  - numpy=1.20.3
+  - h5py=3.2.1
+  - scikit-learn=0.24.2
+  - scipy=1.7.1
+  - matplotlib=3.4.2
+  - pandas = 1.3.3
+  - tensorboardX=2.2
+  - spyder=4.2.5
+  - spyder-kernels=1.10.2
+  - ipykernel=5.3.4
+  - pip=21.2.2
+  - plotly=5.1
+  - pip:
+    - plyfile==0.7.4
+    - transforms3d
+  - pyg::pyg=2.0.1
+  - pyg::pytorch-sparse
+  
+# run: conda env create --file environment.yml
+# conda install pyg -c pyg -c conda-forge
+# pip install plyfile=0.7.4
+# remove pyg and both pyg:: if error
+# - torch-cluster=1.5.9
+#- torch-geometric
