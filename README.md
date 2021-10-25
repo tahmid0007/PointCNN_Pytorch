@@ -1,7 +1,7 @@
-# PointCNN_Pytorch
-#Environment:
+# PointCNN_Pytorch (**adali PCNN train (2ways) + visualise inference (whole))
+# Environment:
 Run the yml file inside conda to create a separate environment with all dependencies. The command itself can also be found inside the yml.
-#Run: what is what
+# Run: what is what
 run.py is the main file.
 v1.zip/v2.zip are the latest version of the base repo with same file structure with updated scripts
 Generic name in this sereis: ###v(N).zip
