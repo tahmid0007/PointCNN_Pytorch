@@ -6,7 +6,7 @@ Run the yml file inside conda to create a separate environment with all dependen
 run.py is the main file.
 v1.zip/v2.zip are the latest version of the base repo with same file structure with updated scripts
 Generic name in this sereis: v(N).zip
-## v1_txt_ dataloader.zip
+## v1_txt_ dataloader.zip (input diversity)
 load data directly from txt bypassing the h5,npy intermediary.
 Generic name in this sereis: v(N)_txt_ dataloader.zip
 ## v2_visualize.zip
